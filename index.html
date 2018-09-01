@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <title>Wiki Search</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Rambla|Acme" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-center">Bookmark Wikipedia
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="form-group">
+          <input type="text" class="form-control" id="input" placeholder="Type here to search.">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <a id="bookmarks" data-toggle="collapse" href="#bm">
+              <div class="panel-heading text-center">
+                <h4 class="panel-title">
+                  Bookmarks
+                </h4>
+              </div>
+            </a>
+            <div id="bm" class="panel-collapse collapse">
+              <ul id="bookmarkList" class="list-group">
+                <li class="list-group-item">Empty. Click a star to add a bookmark.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="results" class="col-xs-12">
+      </div>
+    </div>
+  </div>
+</div>
+<div id="testing123">
+</div>
+</body>
+</html> 
+

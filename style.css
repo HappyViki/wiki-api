@@ -1,0 +1,89 @@
+/*https://en.wikipedia.org/w/api.php?action=query&special=random&format=json*/
+/*
+maroon/pink stuff
+F2ADC2 very light
+DD7594 light
+AB3E5F just right
+771533 dark
+3E0114 very dark
+
+from color hunt
+222831 black
+393e46 dark grey
+00adb5 aqua
+eeeeee white
+*/
+/* mobile */
+.ve-mobile {
+  display: block;
+  width: 100%;
+}
+.ve-desktop {
+  display: none;
+}
+.container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+  .ve-mobile {
+    display: none;
+  }
+  .ve-desktop {
+    display: block;
+    width: 100%;
+  }
+  .container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+
+}
+
+body {
+font-family: 'Rambla', sans-serif;
+  background-color: #00adb5; /* just right */
+}
+
+.panel {
+  border: none !important;
+}
+.btn, .panel .panel-heading {
+  color: #eeeeee; /* very light */
+  background-color: #222831; /* very dark */
+  cursor: pointer;
+}
+.btn:hover, .panel .panel-heading:hover {
+  color: #222831; /* very dark */
+  background-color: #eeeeee; /* very light */
+}
+.form-control {
+  width: 100%;
+}
+.searchmatch {
+  color: #3E0114; /* very dark */
+}
+
+h1 {
+font-family: 'Acme', sans-serif;
+font-size: 62px;
+  color: #222831; /* very dark */
+  text-shadow: 4px 2px #eeeeee; /* very light */
+}
+a {
+  text-decoration: none !important;
+  color: #222831; /* very dark */
+}
+a:hover {
+  color: #00adb5; /* very dark */
+}
+#bookmarks{
+  margin-top:10px;
+}
+.star{
+  margin-left:100%;
+}
